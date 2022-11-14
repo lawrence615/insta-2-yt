@@ -19,6 +19,7 @@ function Header() {
             src="https://links.papareact.com/ocw"
             layout="fill"
             objectFit="contain"
+            alt="Instgaram Logo"
           />
         </div>
         <div className="relative lg:hidden w-10 flex-shrink-0 cursor-pointer">
@@ -26,6 +27,7 @@ function Header() {
             src="https://links.papareact.com/jjm"
             layout="fill"
             objectFit="contain"
+            alt="Instgaram Logo"
           />
         </div>
         {/** Middle - Search input field */}
@@ -57,6 +59,7 @@ function Header() {
           <img
             className="h-10 rounded-full cursor-pointer"
             src="https://img.icons8.com/color/12x/money-heist-dali.png"
+            alt="Profile Image"
           />
         </div>
       </div>
