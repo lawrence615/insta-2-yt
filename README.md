@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] [@heroicons/react](https://github.com/tailwindlabs/heroicons)
 - [x] [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
 - [x] [Faker](https://github.com/faker-js/faker)
+- [x] [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
