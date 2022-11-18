@@ -36,7 +36,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] [Tailwind CSS](https://tailwindcss.com/docs/guides/nextjs)
 - [ ] Firebase v9
 - [ ] Recoil for state management instead of Redux
-- [ ] Next Auth
+- [x] Next Auth
 - [x] [@heroicons/react](https://github.com/tailwindlabs/heroicons)
 - [x] [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
 - [x] [Faker](https://github.com/faker-js/faker)
