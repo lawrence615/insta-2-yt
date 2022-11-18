@@ -9,10 +9,11 @@ import {
   HeartIcon,
 } from "@heroicons/react/24/outline";
 import { useSession, signIn, signOut } from "next-auth/react";
+import { useRouter } from "next/router";
 
 function Header() {
-  
   const { data: session } = useSession();
+  const router = useRouter();
 
   return (
     <div className="shadow-sm border-b bg-white sticky top-0">
@@ -24,6 +25,7 @@ function Header() {
             layout="fill"
             objectFit="contain"
             alt="Instgaram Logo"
+            onClick={() => router.push({ pathname: "/" })}
           />
         </div>
         <div className="relative lg:hidden w-10 flex-shrink-0 cursor-pointer">
@@ -63,7 +65,7 @@ function Header() {
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
               <img
-              onClick={signOut}
+                onClick={signOut}
                 className="h-10 rounded-full cursor-pointer"
                 src={session?.user?.image}
                 alt="Profile Image"
